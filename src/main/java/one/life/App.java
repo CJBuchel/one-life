@@ -3,11 +3,12 @@
  */
 package one.life;
 
-import one.life.view.*;
-
 public class App {
-	public static void main(String[] args) {
-		System.out.print("Program running");
-		View.gui();
-	}
+    public String getGreeting() {
+        return "Hello world.";
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new App().getGreeting());
+    }
 }
