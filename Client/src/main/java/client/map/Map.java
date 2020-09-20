@@ -1,5 +1,6 @@
 package client.map;
 
+import client.mapconfig;
 import client.locations.*;
 
 public class Map {
@@ -33,6 +34,4 @@ public class Map {
     int x[] = {2,1};
     System.out.print("Selected Location: " + x[0] + x[1] + " " + map[x[0]][x[1]] + "\n");
   }
-
-  
 }
